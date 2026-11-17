@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050a12">
+  <meta name="description" content="KAMVYR — Upcoming Full-Stack Developer. Building beyond the unknown.">
+  <title>KAMVYR | Build Beyond the Unknown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="page-grid"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span>KAMVYR<span class="brand-dot">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="status-line">
+          <span class="status-dot"></span>
+          OPEN TO LEARNING & OPPORTUNITIES
+        </div>
+
+        <p class="eyebrow">HELLO, WORLD. I'M</p>
+        <h1 class="hero-title">KAM<span>VYR</span><b>.</b></h1>
+        <h2 class="hero-role">UPCOMING FULL-STACK DEVELOPER</h2>
+
+        <p class="hero-description">
+          I build digital experiences, explore new technologies
+          and turn ideas into functional solutions. My journey
+          is just beginning, and the possibilities are limitless.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore my work <span>↗</span></a>
+          <a href="#contact" class="btn btn-outline">Let's connect</a>
+        </div>
+
+        <div class="hero-motto">
+          <span></span>
+          BUILD. LEARN. INNOVATE.
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="profile-frame" id="profileFrame" tabindex="0"
+             aria-label="KAMVYR profile image. Hover or focus to reveal the real photograph.">
+          <img class="profile-image anime-image"
+               src="assests/anime_profile.png"
+              >
+          <img class="profile-image real-image"
+               src="assests/profile_pic.png"
+              >
+          <div class="profile-overlay">
+            <span>&lt;/&gt;</span>
+            <p>KAMVYR</p>
+          </div>
+          <div class="profile-hint">HOVER TO REVEAL THE DEVELOPER</div>
+        </div>
+
+        <div class="floating-tag tag-top">
+          <span class="tag-icon">⌘</span>
+          <span>CODE & CREATE</span>
+        </div>
+        <div class="floating-tag tag-bottom">
+          <span class="status-dot"></span>
+          <span>ALWAYS LEARNING</span>
+        </div>
+        <div class="visual-coordinate">01 / 06 — IDENTITY</div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span></span> SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / THE PERSON BEHIND THE CODE</p>
+        <h2>Beyond the <span>screen.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="lead">
+            I'm KAMVYR, an upcoming software developer passionate
+            about building useful things with technology.
+          </p>
+          <p>
+            I'm at the beginning of my professional development
+            journey, but I've already been exploring both frontend
+            and backend development. I enjoy understanding how
+            websites work, how systems communicate and how an idea
+            becomes a working product.
+          </p>
+          <p>
+            I believe growth comes from building, experimenting,
+            making mistakes and learning continuously. I'm not
+            claiming to know everything — I'm committed to getting
+            better every day.
+          </p>
+          <p class="about-signature">&lt;/&gt; BUILD BEYOND THE UNKNOWN.</p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">02</span>
+            <span class="stat-label">SIDES OF DEVELOPMENT</span>
+            <p>Frontend & Backend</p>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">ROOM TO GROW</span>
+            <p>Always learning</p>
+          </div>
+          <div class="stat-card wide-stat">
+            <span class="stat-number">01</span>
+            <span class="stat-label">MISSION</span>
+            <p>Build meaningful digital experiences.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="section-heading centered">
+        <p class="eyebrow">02 / MY TECHNOLOGY UNIVERSE</p>
+        <h2>The <span>skills reactor.</span></h2>
+        <p class="section-subtitle">
+          Technologies I've been working with and areas I'm exploring.
+        </p>
+      </div>
+
+      <div class="reactor-scene">
+        <div class="reactor-ring reactor-ring-a"></div>
+        <div class="reactor-ring reactor-ring-b"></div>
+
+        <div class="skills-ring" id="skillsRing">
+          <article class="skill-panel">
+            <span class="panel-number">01 / FRONTEND</span>
+            <div class="panel-symbol">◈</div>
+            <h3>Frontend Development</h3>
+            <p>Building interfaces and interactive web experiences.</p>
+            <div class="skill-tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              <span>Tailwind CSS</span><span>Vite.js</span>
+            </div>
+          </article>
+
+          <article class="skill-panel">
+            <span class="panel-number">02 / BACKEND</span>
+            <div class="panel-symbol">⌘</div>
+            <h3>Backend Development</h3>
+            <p>Working with server-side logic and application frameworks.</p>
+            <div class="skill-tags">
+              <span>Python</span><span>Node.js</span>
+              <span>Django</span><span>Flask</span>
+            </div>
+          </article>
+
+          <article class="skill-panel">
+            <span class="panel-number">03 / VERSION CONTROL</span>
+            <div class="panel-symbol">⑂</div>
+            <h3>Version Control</h3>
+            <p>Tracking code changes and working with repositories.</p>
+            <div class="skill-tags">
+              <span>Git</span><span>GitHub</span>
+            </div>
+          </article>
+
+          <article class="skill-panel">
+            <span class="panel-number">04 / ENVIRONMENT</span>
+            <div class="panel-symbol">▣</div>
+            <h3>Development Environment</h3>
+            <p>Working with command-line tools and container technology.</p>
+            <div class="skill-tags">
+              <span>Linux CLI</span><span>Docker</span>
+              <span>Terminal</span>
+            </div>
+          </article>
+
+          <article class="skill-panel">
+            <span class="panel-number">05 / DEPLOYMENT</span>
+            <div class="panel-symbol">▲</div>
+            <h3>Deployment</h3>
+            <p>Putting web projects online and making them accessible.</p>
+            <div class="skill-tags">
+              <span>Vercel</span>
+              <span>Deployment</span>
+            </div>
+          </article>
+
+          <article class="skill-panel exploring-panel">
+            <span class="panel-number">06 / EXPLORATION</span>
+            <div class="panel-symbol">◎</div>
+            <h3>Database Technologies</h3>
+            <p>Exploring database options and learning data management.</p>
+            <div class="skill-tags">
+              <span>Database concepts</span><span>Currently exploring</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="reactor-core">
+          <div class="core-inner">
+            <span>&lt;/&gt;</span>
+            <strong>KAMVYR</strong>
+            <small>TECH REACTOR</small>
+          </div>
+        </div>
+
+        <div class="reactor-platform">
+          <div class="platform-top"></div>
+          <div class="platform-base"></div>
+          <div class="platform-light"></div>
+        </div>
+      </div>
+
+      <div class="reactor-caption">
+        <span class="status-dot"></span>
+        AUTOMATED 360° TECHNOLOGY DISPLAY
+      </div>
+
+      <p class="skills-note">
+        My skills reflect my current learning and experience.
+        I'm continuously developing them through practice and projects.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">03 / WHAT I'M BUILDING</p>
+        <h2>My <span>workbench.</span></h2>
+        <p class="section-subtitle">
+          A space for experiments, ideas and projects as my journey grows.
+        </p>
+      </div>
+
+      <div class="project-empty">
+        <div class="empty-icon">&lt;/&gt;</div>
+        <p class="eyebrow">WORK IN PROGRESS</p>
+        <h3>Something is being built.</h3>
+        <p>
+          I'm developing my experience through hands-on practice.
+          New projects and experiments will appear here as they take shape.
+        </p>
+        <a href="#contact" class="text-link">Connect with me <span>↗</span></a>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section journey-section" id="journey">
+      <div class="section-heading centered">
+        <p class="eyebrow">04 / THE PROCESS</p>
+        <h2>The <span>developer journey.</span></h2>
+        <p class="section-subtitle">
+          Not a finished destination — a continuous process of growth.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-index">STAGE 01</span>
+            <h3>Learning the Frontend</h3>
+            <p>
+              Building foundations with HTML, CSS, JavaScript,
+              Tailwind CSS and Vite.js.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-index">STAGE 02</span>
+            <h3>Exploring the Backend</h3>
+            <p>
+              Learning Python, Node.js, Django and Flask to understand
+              the systems behind web applications.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-index">STAGE 03</span>
+            <h3>Tools & Deployment</h3>
+            <p>
+              Developing practical familiarity with Git, GitHub,
+              Linux commands, Docker and Vercel.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <span class="timeline-index">STAGE 04</span>
+            <h3>What's Next?</h3>
+            <p>
+              Exploring databases, building more complete applications
+              and strengthening my development skills.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">05 / START A CONNECTION</p>
+        <h2>Have an idea?<br><span>Let's build it.</span></h2>
+        <p>
+          I'm always interested in learning, collaborating and
+          connecting with people who love building things with technology.
+        </p>
+
+        <a class="btn btn-primary"
+           href="mailto:kamaunjugush254@gmail.com">
+          Send me an email <span>↗</span>
+        </a>
+
+        <div class="social-links">
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="brand">
+      <span class="brand-icon">&lt;/&gt;</span>
+      <span>KAMVYR<span class="brand-dot">.</span></span>
+    </a>
+    <p>BUILD BEYOND THE UNKNOWN.</p>
+    <span class="copyright">© <span id="year"></span> KAMVYR. BUILT WITH CURIOSITY.</span>
+  </footer>
+
+</body>
+</html>
