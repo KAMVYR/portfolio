@@ -93,9 +93,8 @@ This journey is still unfolding.
 
 ## Connect With Me
 
-- **GitHub:** [Add your GitHub profile](https://github.com/yourusername)
-- **LinkedIn:** [Add your LinkedIn profile](https://linkedin.com/in/yourusername)
-- **Email:** your-email@example.com
+- **GitHub:** [Add your GitHub profile](https://github.com/KAMVYR)
+- **Email:** kamaungujush254@gamil.com
 
 ---
 
