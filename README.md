@@ -93,7 +93,7 @@ This journey is still unfolding.
 
 ## Connect With Me
 
-- **GitHub:** [Add your GitHub profile](https://github.com/KAMVYR)
+- **GitHub:** https://github.com/KAMVYR
 - **Email:** kamaungujush254@gamil.com
 
 ---
